@@ -11,14 +11,14 @@
     padding: 0px;
 }
 body{
- background-color: var(--corfundo);
+ background-color: #e2e7ef;
+ font-family: Arial, Helvetica, sans-serif;
 }
 #tituloface{
     width: 301px;
     margin: auto;
 }
 .sub{
-    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     font-size: 24px;
     width: 400px;
@@ -26,10 +26,64 @@ body{
     text-align: center;
 }
 .fundomain{
-    background-color: #263549;
-    margin: 40px auto;
+    background-color: var(--corrodapé);
+    margin: 30px auto;
     width: 396px;
-    height: 315px;
+    padding: 10px 0px 5px;
+    border-radius: 10px;
 }
-.gmail"{
+.senhag{
+    width: 396px;
+    height: 132px;
+}
+.gmail{
+    margin: 13px auto;
+    background-color: #e8f0fe;
+    width: 330px;
+    height: 22px;
+    border: 1px solid var(--corbotao);
+    padding: 14px 16px;
+    border-radius: 8px;
+}
+.senha{
+    margin: 13px auto;
+    background-color: #f0f3f8;
+    width: 330px;
+    height: 22px;
+    border: 1px solid var(--corbotao);
+    padding: 14px 16px;
+    border-radius: 8px;
+}
+.botaoentrar{
+    background-color:#1877f2;
+    color: var(--corrodapé);
+    margin: auto;
+    width: 358px;
+    height: 38px;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.senhaes{
+    font-size: 15px;
+    text-align: center;
+    color: #1876f2;
+    margin: 22px auto;
+}
+.botaocriar{
+    color: #ffffff;
+    font-size: 8px;
+    width: 150px;
+    height: 20px;
+    background-color: var(--corcriar);
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+}
+p{
+    text-align: center;
+    width: 396px;
+    margin: 10px auto 15px;
 }
