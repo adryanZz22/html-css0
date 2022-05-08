@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+:root{
+    --corfundo:  #f0f2f5;
+    --corbotao:  #1877f2;
+    --corcriar:  #42b72a;
+    --corrodapé: #ffffff;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+ background-color: var(--corfundo);
+}
+#tituloface{
+    width: 301px;
+    margin: auto;
+}
+.sub{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    font-size: 24px;
+    width: 400px;
+    height: 112px;
+    text-align: center;
+}
+.fundomain{
+    background-color: #263549;
+    margin: 40px auto;
+    width: 396px;
+    height: 315px;
+}
+.gmail"{
+}
